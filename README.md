@@ -155,6 +155,10 @@ cat /root/airflow/simple_auth_manager_passwords.json.generated
 
 The pipeline will then run **automatically every hour**.
 
+Pipeline output
+<img width="1366" height="654" alt="image" src="https://github.com/user-attachments/assets/8ef82450-5a47-4055-8551-6272a17b924e" />
+
+
 ---
 
 ## MongoDB Setup
