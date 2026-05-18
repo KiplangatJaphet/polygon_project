@@ -171,18 +171,8 @@ Pipeline output
 **Option 1 — MongoDB Atlas UI:**
 - Go to Atlas → Browse Collections → `stock_data_db` → `stock_prices`
 
-**Option 2 — Terminal:**
-```bash
-python3 -c "
-import pymongo, certifi
-from urllib.parse import quote_plus
-password = quote_plus('your_password')
-client = pymongo.MongoClient(f'mongodb+srv://your_user:{password}@cluster0.xxxxx.mongodb.net/?appName=Cluster0', tlsCAFile=certifi.where())
-collection = client['stock_data_db']['stock_prices']
-for doc in collection.find():
-    print(doc)
-"
-```
+<img width="1356" height="544" alt="image" src="https://github.com/user-attachments/assets/a50a4075-881b-4881-ab34-0f4adc2e7bf8" />
+
 
 ---
 
