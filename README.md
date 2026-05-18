@@ -98,15 +98,9 @@ mongo_url = "mongodb+srv://your_user:{encoded_password}@cluster0.xxxxx.mongodb.n
 python3 extract.py
 ```
 
-Expected output:
-```
-  symbol        date     open    high       low   close      volume
-0   AAPL  2026-01-09  259.075  260.21  256.2200  259.37  39996967.0
-1  GOOGL  2026-01-09  327.090  330.83  325.8000  328.57  26214166.0
-2   MSFT  2026-01-09  474.060  479.82  472.2001  479.28  18491036.0
-3   AMZN  2026-01-09  244.568  247.86  242.2400  247.38  34559961.0
-4   TSLA  2026-01-09  435.945  449.05  430.3900  445.01  67331456.0
-```
+Output:
+<img width="706" height="173" alt="image" src="https://github.com/user-attachments/assets/f914f911-633a-4fb8-b153-0300ffdd436e" />
+
 
 **Step 2 — Load (insert data into MongoDB):**
 ```bash
