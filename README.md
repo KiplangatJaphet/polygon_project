@@ -214,6 +214,4 @@ Pipeline output
 
 ---
 
-## License
 
-MIT
