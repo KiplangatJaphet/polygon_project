@@ -98,7 +98,8 @@ mongo_url = "mongodb+srv://your_user:{encoded_password}@cluster0.xxxxx.mongodb.n
 python3 extract.py
 ```
 
-Output:
+Output
+
 <img width="706" height="173" alt="image" src="https://github.com/user-attachments/assets/f914f911-633a-4fb8-b153-0300ffdd436e" />
 
 
